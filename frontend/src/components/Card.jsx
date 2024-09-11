@@ -4,7 +4,7 @@ function Card({ item }) {
     console.log(item)
   return (
     <div className='mt-6 my-3 p-3'>
-        <div className="card w-80 bg-base-100 w-96 shadow-xl">
+        <div className="card w-80 bg-base-100 w-96 shadow-xl hover:scale-105 duration-200">
   <figure>
     <img
       src={item.image}  className='h-80 w-80'    alt="Shoes" />
